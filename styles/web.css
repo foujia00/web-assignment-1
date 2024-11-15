@@ -8,6 +8,17 @@
 .text-color{
     color: #0D1321;
 }
+.section-title{
+    font-size: 32px;
+    font-weight: bolder;
+    color: #0D1321;
+}
+.section-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+
+}
 /*Nav*/
 nav{
     display: flex;
@@ -51,4 +62,57 @@ nav{
 .banner{
     text-align: center;
     background-image: url(../assets/Hero-bg.png);
+}
+/*main*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/*why*/
+.i-will-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #353840;
+    margin: 30px 0;
+}
+.i-will-p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 30px 0;
+}
+.btn-primary{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 12px 20px ;
+    background-color: white;
+
+}
+.i-will{
+    display: flex;
+    width: 850px ;
+    height: 240px;
+    justify-content: space-between;
+    margin: 32px 32px;
+    text-align: start;
+}
+.i-img{
+    width: 240px;
+    height: 240px;
+}
+.why{
+    text-align: center;
+    margin: 70px 0;
+}
+.why-full{
+    text-align: center;
+    margin: 0 97px;
+}
+.i-1{
+    margin-right: 90px;
+}
+.i-2{
+    margin-left: 90px;
+}
+.i-3{
+    margin-right: 90px;
 }
